@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*------- Input field Stylings --------*/
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: space-around; */
+
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
+.todo-submit {
+  cursor: pointer;
+  background-color: #e5e6ff;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  height: 75px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 0px 17px 13px -11px #0000006e;
+}
+
+.todo-submit::before {
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* position: absolute; */
+  width: 100%;
+  height: 100%; 
+  box-shadow: 0px 23px 13px -11px #0000006e;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out
+}
+.todo-submit:hover {
+  transform: scale(1.1);
+  background-color: hsla(238, 100%, 92%, 1);;
+}
+
+.todo-submit:focus {
+  outline: none;
+  transform: scale(0.95);
+}
+
+.todo-input {
+  border-bottom: 3px solid grey;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  height: 40px;
+  width: 100%;
+  font-size: 30px;
+}
+
+.todo-input:focus{
+  border-bottom: 3px solid black;
+  outline: none;
+}
+
+
+.todoListMain {
+  background-color: white;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+/* .todoListMain::after {
+  content: '';
+  background-color: grey;
+  width: 50px;
+  
+  height: 50px;
+} */
+
+/*-------- To do Items stylings ------------*/
+
+.theList {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  margin-top: 0;
+  height: 100%;
+  list-style-type: none;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+.todo-list-item {
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cacaca;
+  height: 50px;
+  width: 50vw;
+}
+
+.todo-list-item:hover {
+  border-bottom: 2px solid black;
+}
