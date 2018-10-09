@@ -14,10 +14,10 @@ class ListContainer extends Component{
       }
 
     showTodoList= () => {
-        console.log("pressedthebutton")
-        return(
-            <div>higuys</div>
-        )
+        this.setState({
+            addingItem: !this.state.addingItem,
+        })
+        console.log(this.state.addingItem)
     }
 
     render(){
@@ -27,7 +27,12 @@ class ListContainer extends Component{
                     <TodoItems 
                         entries={this.props.entries}
                         deleteItem={this.props.deleteItem}/>
-                    <button onClick={this.showTodoList} className="listcontainer-addbutton">+</button>
+                    <button onClick={this.showTodoList} className="listcontainer-addbutton">-</button>
+                    <TodoList
+                        addItem={this.props.addItem}
+                        inputElement={this.props.inputElement}
+                        handleInput={this.props.handleInput}
+                        currentItem={this.props.currentItem}/>
                 </div>
             )
         }
