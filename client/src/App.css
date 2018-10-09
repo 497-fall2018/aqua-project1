@@ -6,6 +6,12 @@
   flex-direction: column;
 }
 
+@font-face{
+  font-family: 'Racing Sans One';
+  font-style: normal;
+  src: url('./assets/fonts/RacingSansOne-Regular.ttf')
+}
+
 /*------- Input field Stylings --------*/
 
 .header {
@@ -88,12 +94,10 @@
 /*-------- To do Items stylings ------------*/
 
 .theList {
+  color: white;
   display: flex;
   justify-content: center;
-  background-color: white;
-  width: 100vw;
   margin-top: 0;
-  height: 100%;
   list-style-type: none;
   align-items: center;
   flex-direction: column;
@@ -103,6 +107,10 @@
 
 
 .todo-list-item {
+  background-color: black;
+  color: white;
+  font-family: "Racing Sans One";
+
   cursor: pointer;
   padding: 0 20px 0 20px;
   display: flex;
@@ -111,9 +119,53 @@
   align-items: center;
   border-bottom: 1px solid #cacaca;
   height: 50px;
-  width: 50vw;
+  border-radius: 5px;
+  width: 329px;
+  margin-top: 10px;
+}
+
+.todo-list-item-deletebutton{
+  background-color: white;
+  height: 5px;
+  width: 20px;
+  color: red;
+  font-family: "Racing Sans One";
+  border: red;
+  border-radius: 100px;
 }
 
 .todo-list-item:hover {
   border-bottom: 2px solid black;
+}
+
+/*-------- GlobalTimer stylings ------------*/
+
+.globaltimer-container{
+  background-color: black;
+  display: block;
+  height: 187px;
+  color: white;
+  font-family: "Racing Sans One";
+  text-align: center;
+}
+
+.globaltimer-header{
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.globaltimer-time{
+  margin-top: 10px;
+  font-size: 80px;
+  margin-left: auto;
+}
+
+/*-------- ListContainer stylings ------------*/
+.listcontainer-container{
+  display: block;
+  margin-top: 69px;
+  height: 479px;
+  background-color: red;
+  padding-top: 10px;
 }

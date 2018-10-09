@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import TodoList from './components/TodoList';
-import TodoItems from './components/TodoItems';
+import GlobalTimer from './components/GlobalTimer.js';
+import ListContainer from './components/ListContainer.js';
 
 class App extends Component {
   constructor() {
@@ -68,14 +69,23 @@ inputElement = React.createRef();
   render() {
     return (
       <div className="App">
-        <TodoList
+        <GlobalTimer />
+        <ListContainer 
+          entries={this.state.items}
+          deleteItem={this.deleteItem}
+          addItem={this.addItem}
+          inputElement={this.inputElement}
+          handleInput={this.handleInput}
+          currentItem={this.state.currentItem}
+        />
+        {/* <TodoList
           addItem={this.addItem}
           inputElement={this.inputElement}
           handleInput={this.handleInput}
           currentItem={this.state.currentItem}/>
         <TodoItems
           entries={this.state.items}
-          deleteItem={this.deleteItem}/>
+          deleteItem={this.deleteItem}/> */}
       </div>
     );
   }

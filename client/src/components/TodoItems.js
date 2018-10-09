@@ -17,7 +17,7 @@ class TodoItems extends Component {
       this.setState({isDone: false})
     }
     else{
-      e.target.style.color = 'green';
+      e.target.style.color = 'red';
       e.target.style.textDecoration = 'line-through';
       this.setState({isDone: true})
     }
@@ -31,7 +31,7 @@ class TodoItems extends Component {
           className={`todo-list-item`}
           onClick={this.finishTask}>
           {item}
-          <button onClick={() => this.props.deleteItem(item)}>x</button>
+          <button className="todo-list-item-deletebutton"onClick={() => this.props.deleteItem(item)}></button>
 
         </li>
       </div>
