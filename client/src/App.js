@@ -78,14 +78,6 @@ inputElement = React.createRef();
           handleInput={this.handleInput}
           currentItem={this.state.currentItem}
         />
-        {/* <TodoList
-          addItem={this.addItem}
-          inputElement={this.inputElement}
-          handleInput={this.handleInput}
-          currentItem={this.state.currentItem}/>
-        <TodoItems
-          entries={this.state.items}
-          deleteItem={this.deleteItem}/> */}
       </div>
     );
   }

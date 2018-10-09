@@ -9,7 +9,7 @@ class ListContainer extends Component{
         super()
         this.state={
           selectedItem: null,
-          addingItem: false,
+          addingItem: true,
         }
       }
 
@@ -27,12 +27,13 @@ class ListContainer extends Component{
                     <TodoItems 
                         entries={this.props.entries}
                         deleteItem={this.props.deleteItem}/>
-                    <button onClick={this.showTodoList} className="listcontainer-addbutton">-</button>
                     <TodoList
                         addItem={this.props.addItem}
                         inputElement={this.props.inputElement}
                         handleInput={this.props.handleInput}
                         currentItem={this.props.currentItem}/>
+                    <button onClick={this.showTodoList} className="listcontainer-addbutton">></button>
+
                 </div>
             )
         }
