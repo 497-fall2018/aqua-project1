@@ -1,0 +1,25 @@
+[debug] [2018-10-15T01:28:55.113Z] ----------------------------------------------------------------------
+[debug] [2018-10-15T01:28:55.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Khalil\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-10-15T01:28:55.115Z] CLI Version:   5.0.1
+[debug] [2018-10-15T01:28:55.115Z] Platform:      win32
+[debug] [2018-10-15T01:28:55.115Z] Node Version:  v8.12.0
+[debug] [2018-10-15T01:28:55.115Z] Time:          Sun Oct 14 2018 20:28:55 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-15T01:28:55.115Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-15T01:28:55.124Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-15T01:28:55.125Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Khalil\Documents\aqua-project1
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
