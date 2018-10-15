@@ -1,14 +1,15 @@
 {
-  "main.css": "/static/css/main.92819736.chunk.css",
-  "main.js": "/static/js/main.7b117892.chunk.js",
-  "main.js.map": "/static/js/main.7b117892.chunk.js.map",
-  "static/js/1.61442405.chunk.js": "/static/js/1.61442405.chunk.js",
-  "static/js/1.61442405.chunk.js.map": "/static/js/1.61442405.chunk.js.map",
+  "main.css": "/static/css/main.9fd450b2.chunk.css",
+  "main.js": "/static/js/main.55dc98c5.chunk.js",
+  "main.js.map": "/static/js/main.55dc98c5.chunk.js.map",
+  "static/js/1.d0078f3e.chunk.js": "/static/js/1.d0078f3e.chunk.js",
+  "static/js/1.d0078f3e.chunk.js.map": "/static/js/1.d0078f3e.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-  "static/css/main.92819736.chunk.css.map": "/static/css/main.92819736.chunk.css.map",
+  "static/css/main.9fd450b2.chunk.css.map": "/static/css/main.9fd450b2.chunk.css.map",
+  "static/media/App.css": "/static/media/RacingSansOne-Regular.b7fe7e31.ttf",
+  "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
   "index.html": "/index.html",
-  "precache-manifest.3db93940af8dd66d05faa2ae416e7799.js": "/precache-manifest.3db93940af8dd66d05faa2ae416e7799.js",
+  "precache-manifest.406d5a537aa5bb27374a37de980cebdd.js": "/precache-manifest.406d5a537aa5bb27374a37de980cebdd.js",
   "service-worker.js": "/service-worker.js"
 }
